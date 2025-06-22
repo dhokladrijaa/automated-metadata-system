@@ -24,6 +24,7 @@ This project is an **Automated Metadata Generation System** that extracts text f
 
 ## 📁 Project Structure
 
+```
 automated-metadata-system/
 ├── app.py # Main Streamlit application
 ├── document_processor.py # Text extraction module
@@ -36,7 +37,7 @@ automated-metadata-system/
 ├── sample.pdf
 ├── sample.docx
 └── sample.txt
-
+```
 
 ---
 
