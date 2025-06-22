@@ -388,13 +388,16 @@ def main():
         display_download_section(st.session_state.metadata)
 
     # Footer
-    st.markdown("---")
-    st.markdown("""
-    <div style="text-align: center; color: #7f8c8d; margin-top: 2rem;">
-        <p>🛠️ Built with Streamlit • 📄 Powered by PyMuPDF & pytesseract</p>
-        <p>Made with ❤️ for document processing automation</p>
+# Footer
+st.markdown("---")
+st.markdown(
+    """
+    <div style="text-align: center; color: #222; margin-top: 2rem;">
+        <p>Made with ❤️, dhokla</p>
     </div>
-    """, unsafe_allow_html=True)
+    """,
+    unsafe_allow_html=True
+)
 
 if __name__ == "__main__":
     main()
