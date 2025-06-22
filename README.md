@@ -34,9 +34,9 @@ automated-metadata-system/
 ├── README.md # Project documentation
 ├── demo_script.md # Demo video script
 └── sample_documents/ # Test files
-├── sample.pdf
-├── sample.docx
-└── sample.txt
+    ├── sample.pdf
+    ├── sample.docx
+    └── sample.txt
 ```
 
 ---
