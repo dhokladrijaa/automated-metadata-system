@@ -38,6 +38,23 @@ st.markdown("""
 section[data-testid="stSidebar"] * {
     color: #fff !important;
 }
+/* Hide the default file limit/type text */
+div[data-testid="stFileUploaderDropzoneInstructions"] > div > small {
+    visibility: hidden;
+    height: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Add your own white text after the drag-and-drop span */
+div[data-testid="stFileUploaderDropzoneInstructions"] > div > span::after {
+    content: "  |  Limit 200MB per file • PDF, DOCX, TXT";
+    display: block;
+    color: #fff !important;
+    font-size: 0.9em;
+    font-weight: normal;
+    margin-top: 2px;
+}
 </style>
 """, unsafe_allow_html=True)
 
