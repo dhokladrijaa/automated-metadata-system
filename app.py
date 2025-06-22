@@ -55,14 +55,12 @@ div[data-testid="stFileUploaderDropzoneInstructions"] > div > span::after {
     font-weight: normal;
     margin-top: 2px;
 }
-            /* Make the sidebar collapse/expand button always visible and white */
+/* Make the sidebar collapse/expand button always visible and white */
 [data-testid="stSidebarCollapseButton"] {
-    color: #fff !important;          /* Makes the icon white */
-    opacity: 1 !important;           /* Always fully visible */
-}
-/* Optional: Make the button background slightly visible for contrast */
-[data-testid="stSidebarCollapseButton"] {
-    background: rgba(50,50,50,0.3) !important;
+    color: #fff !important;              /* Makes the icon white */
+    opacity: 1 !important;               /* Always fully visible */
+    pointer-events: auto !important;     /* Ensure it is clickable */
+    background: rgba(50,50,50,0.3) !important; /* Slight background for contrast */
     border-radius: 50%;
 }
 </style>
