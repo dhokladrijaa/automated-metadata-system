@@ -1,0 +1,7 @@
+[theme]
+base="dark"  # or "light" if you want a light theme
+primaryColor="#FF4B4B"
+backgroundColor="#FFFFFF"
+secondaryBackgroundColor="#31333F"
+textColor="#000000"  # <-- White text for dark background
+font="sans serif"
