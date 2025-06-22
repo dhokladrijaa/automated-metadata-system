@@ -387,17 +387,28 @@ def main():
         display_metadata(st.session_state.metadata)
         display_download_section(st.session_state.metadata)
 
-    # Footer
-# Footer
-st.markdown("---")
 st.markdown(
     """
-    <div style="text-align: center; color: #222; margin-top: 2rem;">
+    <style>
+    .custom-footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background: transparent;
+        text-align: center;
+        color: #222;
+        padding: 10px 0;
+        z-index: 100;
+    }
+    </style>
+    <div class="custom-footer">
         <p>Made with ❤️, dhokla</p>
     </div>
     """,
     unsafe_allow_html=True
 )
+
 
 if __name__ == "__main__":
     main()
