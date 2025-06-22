@@ -76,3 +76,5 @@ Upload PDF, DOCX, or TXT files through the web interface to extract metadata.
 
 ---
 
+## Video Demonstration Drive link- 
+https://drive.google.com/file/d/13EYJuQ2rbbdkwwDndNpoZCB5kBwOWXQ6/view?usp=sharing
