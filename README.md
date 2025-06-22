@@ -1,6 +1,6 @@
 # Automated Metadata Generation System
 
-> **"Automatically extract text and generate metadata from your documents with a simple web interface."**
+> **Automatically extract text and generate metadata from your documents with a simple web interface.**
 
 ---
 
