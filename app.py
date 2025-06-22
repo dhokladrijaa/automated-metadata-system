@@ -21,6 +21,25 @@ import json
 import logging
 from datetime import datetime
 import traceback
+import streamlit as st
+
+# --- Custom CSS to make uploader and sidebar text white ---
+st.markdown("""
+<style>
+/* Make the 'Drag and drop file here' text white */
+[data-testid="stFileUploaderDropzoneInstructions"] > div > span {
+    color: #fff !important;
+}
+/* Make the 'Limit 200MB per file' and file types text white */
+[data-testid="stFileDropzoneInstructions"] {
+    color: #fff !important;
+}
+/* Make all sidebar text white */
+section[data-testid="stSidebar"] * {
+    color: #fff !important;
+}
+</style>
+""", unsafe_allow_html=True)
 
 # Import our custom modules
 from document_processor import DocumentProcessor
